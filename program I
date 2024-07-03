@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int n1,n2,a,s,m=0,d=0;
+  cout<<"enter two numbers:";
+  cin>>n1>>n2;
+  a=n1+n2;
+  s=n1+(-n2);
+  for(int i=0;i<n2;i++)
+  {
+      m+=n1;
+  }
+  while(n1>=n2)
+  {
+      n1=n1+(-n2);
+      d++;
+     
+  }
+  cout<<"sum="<<a<<endl<<"diff="<<s<<endl<<"multiply="<<m<<endl<<"div="<<d;
+  return 0;
+}
